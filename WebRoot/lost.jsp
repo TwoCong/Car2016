@@ -8,6 +8,11 @@ border=0>
 
 
 
+
+
+
+
+
 <TR>
 <TD>
 <TABLE class=dragTable id=viewarticle cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
