@@ -24,7 +24,11 @@
 <META content="MSHTML 6.00.2900.3268" name=GENERATOR>
 </HEAD>
 <body>
-<h1>支付页面</h1>
+<center><h1>请扫描下面的二维码完成支付</h1>
+<img src="images/codeForPay.jpg"  border="0"></img>
+
+</center>
+
 </BODY>
 
 </HTML>
