@@ -21,13 +21,19 @@
 	DISPLAY: none
 }
 </STYLE>
+
 <META content="MSHTML 6.00.2900.3268" name=GENERATOR>
 </HEAD>
 <body>
 <center><h1>请扫描下面的二维码完成支付</h1>
-<img src="images/codeForPay.jpg"  border="0"></img>
-
+<img src="images/codeForPay.jpg" width ="480"  border="0"></img>
+<br><br>
+<a href=""><input type = button value="完成支付" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=#" onclick="history.back()"><input type = button value="返回上页" /></a>
 </center>
+
+
 
 </BODY>
 
