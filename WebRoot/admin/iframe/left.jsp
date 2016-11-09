@@ -85,14 +85,13 @@ function expand(id_value){
   </TD>
   </TR>
     
-  <!-- 
   <TR ParentID="SystemLastArticle" AllParentID="SystemLastArticle">
   <TD noWrap width="35%">
 
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(2)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;网站公告管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;网站公告</TD></TR>
   </TABLE>
 
    
@@ -111,18 +110,16 @@ function expand(id_value){
      
   <TR ParentID="SystemLastArticle" AllParentID="SystemLastArticle">
   <TD noWrap width="35%">
-  <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(3)>
+  <TABLE width="828" border="0" align="center"onclick=javascript:expand(3) height="38" style="width: 828px; height: 38px;">
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;特惠信息管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;优惠信息</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_3 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
     <TD noWrap width="35%"><IMG src="<%=basePath %><%=dir %>/images/bullet.gif" 
       align=absMiddle><SPAN style="CURSOR: default"> <a href="<%=basePath %><%=dir %>/news/index.jsp" target="MainFrame">特惠信息管理</a></SPAN></TD></TR>
-  <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
-    <TD noWrap width="35%"><IMG src="<%=basePath %><%=dir %>/images/bullet.gif" 
-      align=absMiddle><SPAN style="CURSOR: default"> <a href="<%=basePath %><%=dir %>/news/add.jsp?method=addTH" target="MainFrame">发布特惠信息</a></SPAN></TD></TR>
+ 
   </TABLE>
   </TD>
   </TR>
@@ -133,7 +130,7 @@ function expand(id_value){
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(4)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;汽车类别管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;汽车类别</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_4 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
@@ -147,7 +144,7 @@ function expand(id_value){
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(5)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;汽车信息管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;汽车信息</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_5 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
@@ -160,7 +157,7 @@ function expand(id_value){
   </TD>
   </TR>
   
-    -->
+ 
   
   
   <TR ParentID="SystemLastArticle" AllParentID="SystemLastArticle">
@@ -168,7 +165,7 @@ function expand(id_value){
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(6)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;注册用户管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;注册用户</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_6 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
@@ -183,7 +180,7 @@ function expand(id_value){
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(7)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;租车信息管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;租车信息</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_7 style="display:none">
    <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
@@ -197,28 +194,35 @@ function expand(id_value){
   
   
   
-    <!--  
+ 
   <TR ParentID="SystemLastArticle" AllParentID="SystemLastArticle">
   <TD noWrap width="35%">
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(8)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;企业介绍管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;企业介绍</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_8 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
     <TD noWrap width="35%"><IMG src="<%=basePath %><%=dir %>/images/bullet.gif" 
-      align=absMiddle><SPAN style="CURSOR: default"> <a href="<%=basePath %><%=dir %>/qy/index.jsp" target="MainFrame">企业介绍管理</a></SPAN></TD></TR>
+      align=absMiddle><SPAN style="CURSOR: default"> <a href="<%=basePath %><%=dir %>/qy/index.jsp" target="MainFrame">关于我们</a></SPAN></TD></TR>
    </TABLE>
   </TD>
   </TR>
+  
+  
+  
+  
+  
+  
+  
 
   <TR ParentID="SystemLastArticle" AllParentID="SystemLastArticle">
   <TD noWrap width="35%">
   <TABLE width="100%" border="0" align="center"style="cursor:hand" onclick=javascript:expand(9)>
   <TR>
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
-    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;投诉建议管理</TD></TR>
+    <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;投诉建议</TD></TR>
   </TABLE>
   <TABLE width="100%" border="0" align="center" id=id_9 style="display:none">
   <TR ParentID="ConventionLastPic" AllParentID="ConventionLastPic">
@@ -234,7 +238,7 @@ function expand(id_value){
     <TD height="31" background="<%=basePath %><%=dir %>/images/linkbg1.gif">&nbsp;</td>
     <TD background="<%=basePath %><%=dir %>/images/linkbg1.gif" >&nbsp;&nbsp;&nbsp;&nbsp;退出登陆</TD></TR>
   </TABLE>
-  -->
+
   
   
   

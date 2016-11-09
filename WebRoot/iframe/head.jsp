@@ -82,12 +82,15 @@ document.write('<div class="wrap">');
 	
 	<A href="index.jsp" target="">首    页</A> |
 	<!-- <A href="qy.jsp" target="">企业介绍</A> |
-	<A href="news.jsp" target="">特惠信息</A> |
-	<A href="guestbook.jsp" target="">投诉建议</A>|
-		<A href="member/index.jsp" target="">会员中心</A> |  -->
+	
+	
+		  -->
+		  <A href="guestbook.jsp" target="">投诉建议</A>|
+		  <A href="news.jsp" target="">优惠信息</A> |
+	 <A href="member/index.jsp" target="">会员中心</A> |
 	<A href="nhzp.jsp" target="">车辆信息</A> |
 
-	<A href="admin/login.jsp" target="">管理登陆</A> 
+	<A href="admin/login.jsp" target="">后台管理</A> 
 	<!--****************主菜单结束****************-->
 	</TD>
   </TR>

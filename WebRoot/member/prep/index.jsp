@@ -6,7 +6,7 @@ String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 String dir=sn.getDir();
 %>
-<HTML><HEAD><TITLE>后台操作区</TITLE>
+<HTML><HEAD><TITLE>后台操作区</TITLE>	1
 <LINK href="<%=basePath %><%=dir %>/images/Admin_Style.css" type=text/css rel=stylesheet>
 <LINK href="<%=basePath %><%=dir %>/images/style.css" type=text/css rel=stylesheet>
 <SCRIPT language=JavaScript src="<%=basePath %><%=dir %>/images/Common.js"></SCRIPT>
@@ -50,7 +50,7 @@ String message = (String)request.getAttribute("message");
     <TD align="left" vAlign=top > 
 <table width='100%' cellspacing='1' cellpadding='3' bgcolor='#CCCCCC' class="tablewidth">
      <tr class="head"> 
-      <td width="10%" align="center">购车编号</td>
+      <td width="10%" align="center">编号</td>
       <td  align="center">汽车名称</td>
       <td  align="center">租金</td>
       <td  align="center">取车时间</td>

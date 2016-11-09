@@ -80,7 +80,7 @@ document.write('<div class="wrap">');
      <TD class=Side vAlign=top align=right width="25%">
 <!--*******************************滚动公告开始*******************************-->
       <TABLE width="100%" height="300" border=0 cellPadding=0 cellSpacing=0 class=dragTable>
-	  <TBODY>
+	 <TBODY>
         <TR>
           <TD class=head>
             <SPAN class=TAG>
@@ -93,12 +93,19 @@ document.write('<div class="wrap">');
         <MARQUEE onmouseover=if(document.all!=null){this.stop()} onmouseout=if(document.all!=null){this.start()} scrollAmount=1 scrollDelay=1 direction=up height=180>
             <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
               <TBODY>
+              <%if(!affList.isEmpty()){
+					for(int aff=0;aff<affList.size();aff++){
+						List affList2=(List)affList.get(aff);
+			%>
 			<TR>
                 <TD width="100%">
-				<a href="#">1.新的旅程，新的起点</a><BR>
+				<%=affList2.get(1).toString() %>---<%=affList2.get(2).toString() %><BR>
 				</TD>
 			  </TR>
-			
+			<%
+					}
+				}
+			  %>
      
 			  </TBODY>
 			 </TABLE>

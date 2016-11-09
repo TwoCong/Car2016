@@ -96,7 +96,7 @@ String id=request.getParameter("id");
           <TD align=left><input type=text name=hcdd size=30 ></TD>
 		</TR>
 		<TR>
-          <TD  align=center colspan=2><br><a href="pay.jsp"><input type=button value="支付押金"></a></TD>
+          <TD  align=center colspan=2><br><input type=button onclick = "f1()" value="支付押金"></TD>
 		</TR>
 				</TBODY>
 			</TABLE>

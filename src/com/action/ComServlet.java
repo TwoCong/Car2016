@@ -136,16 +136,17 @@ public class ComServlet extends HttpServlet {
 		
 		else if(method.equals("addPREP")){  //del teacher
 			String id = request.getParameter("id");
-			String qcsj = request.getParameter("qcsj");
-			String qcdd = request.getParameter("qcdd");
-			String hcsj = request.getParameter("hcsj");
-			String hcdd = request.getParameter("hcdd");
+			String qcsj = request.getParameter("qcsj"); //取车时间
+			String qcdd = request.getParameter("qcdd");  //取车地点
+			String hcsj = request.getParameter("hcsj");  //还车时间
+			String hcdd = request.getParameter("hcdd");  //还车地点
 			String member=(String)session.getAttribute("member");
 			int flag = cBean.comUp("insert into zc(qcid,qcsj,qcdd,hcsj,hcdd,member) " +
 					"values('"+id+"','"+qcsj+"','"+qcdd+"','"+hcsj+"','"+hcdd+"','"+member+"')");
 			if(flag == Constant.SUCCESS){ 
+				
 				request.setAttribute("message", "操作成功，请登录会员中心查看详细信息！");
-				request.getRequestDispatcher("nhzp.jsp").forward(request, response); 
+				request.getRequestDispatcher("pay.jsp").forward(request, response); 
 			}
 			else { 
 				request.setAttribute("message", "操作失败！");
